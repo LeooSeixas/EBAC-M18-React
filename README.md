@@ -37,7 +37,7 @@ Este projeto foi desenvolvido como parte de uma prática avançada de React, ate
 Siga os passos abaixo para configurar o ambiente em sua máquina:
 
 1. **Clone este repositório:**
- ```git clone https://github.com/seu-usuario/seu-repositorio.git```
+ ```git clone https://github.com/LeooSeixas/EBAC-M18-React.git```
 
 2. **Acesse a pasta do projeto:
  ```cd nome-do-seu-repositorio```
