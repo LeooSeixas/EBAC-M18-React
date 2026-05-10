@@ -1,0 +1,129 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Fundo suave */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.container-geral {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(15px); /* Efeito de vidro */
+  padding: 30px;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff; /* Sombra 3D Neumorphism */
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h3 {
+  padding: 15px 0;
+}
+
+p {
+  text-align: center;
+  padding: 15px;
+}
+
+.card-input {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: inset 4px 4px 8px #e2e2e2, inset -4px -4px 8px #ffffff;
+}
+
+.filtro-secao {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: #666;
+}
+
+.task-item {
+  background: #f8fafc;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+  border-left: 5px solid #6366f1;
+  box-shadow: 5px 5px 10px #d1d1d1, -5px -5px 10px #ffffff;
+}
+
+.task-item:hover {
+  transform: translateY(-3px);
+}
+
+button {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 0 #bbb;
+  margin-left: 5px;
+}
+
+button:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #bbb;
+}
+
+.btn-done { background: #22c55e; color: white; box-shadow: 0 4px 0 #16a34a; }
+.btn-remove { background: #ef4444; color: white; box-shadow: 0 4px 0 #dc2626; }
+.btn-undo { background: #64748b; color: white; box-shadow: 0 4px 0 #475569; }
+
+form button {
+  width: 100%;
+  background: #6366f1;
+  color: white;
+  padding: 12px;
+  margin-top: 10px;
+  box-shadow: 0 4px 0 #4338ca;
+}
+
+input[type="text"], select {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  background: #f1f5f9;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0 0 0 15px;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
