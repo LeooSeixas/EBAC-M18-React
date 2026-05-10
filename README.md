@@ -1,6 +1,6 @@
 # 📝 Modern 3D To-Do List - React
 
-![Preview do Projeto](./src/assets/Preview do Projeto.png)
+![Preview do Projeto](./src/assets/preview.png)
 
 Uma aplicação avançada de gerenciamento de tarefas desenvolvida em **React**, focada em aplicar arquiteturas modernas de estado global e otimização de performance. O projeto apresenta uma interface visual inspirada nas tendências de **Soft UI (Claymorphism)** e **Glassmorphism**.
 
